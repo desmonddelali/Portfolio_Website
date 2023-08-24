@@ -14,6 +14,7 @@ export default function Document() {
           - https://github.com/facebook/react/issues/11538
           - https://bugs.chromium.org/p/chromium/issues/detail?id=872770 */}
         <meta content="notranslate" name="google" />
+        <link href="src/images/LogoD.png" rel="icon" type="image/x-icon"></link>
       </Head>
       <body className="bg-black">
         <Main />
