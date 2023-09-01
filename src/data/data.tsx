@@ -84,7 +84,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'src/images/portfolio/Desmond-CV.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
