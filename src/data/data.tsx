@@ -90,7 +90,7 @@ export const heroData: Hero = {
       Icon: ArrowDownTrayIcon,
       onClick: function () {
         // URL to your PDF file
-        const pdfUrl = 'https://desmondresume.netlify.app/src/images/portfolio/Desmond-CV.pdf';
+        const pdfUrl = 'https://drive.google.com/file/d/1YotnWtTd3Bh6CwNlCI8v2wHKSv_om8RW/view?usp=sharing';
   
         // Open the PDF in a new tab
         window.open(pdfUrl, '_blank');
