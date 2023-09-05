@@ -88,6 +88,13 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
+      onClick: function () {
+        // URL to your PDF file
+        const pdfUrl = 'src/images/portfolio/Desmond-CV.pdf';
+  
+        // Open the PDF in a new tab
+        window.open(pdfUrl, '_blank');
+      }
     },
     {
       href: `#${SectionId.Contact}`,
